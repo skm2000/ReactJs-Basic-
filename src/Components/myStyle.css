@@ -1,0 +1,9 @@
+.primary {
+    color : orange
+}
+.font-xl {
+    font-size: 72px;
+    font-style: oblique;
+    font-variant: inherit;
+    font-weight: bolder;
+}
