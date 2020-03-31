@@ -22,12 +22,14 @@ import PortalDemo from './Components/PortalDemo'
 import Hero from './Components/Hero'
 import ErrorBounding from './Components/ErrorBounding'
 import ClickedCounter from './Components/ClickedCounter'
+import HoverCounter from './Components/HoverCounter'
 
 class App extends Component {
   render () {
     return(
       <div className="App">
       <ClickedCounter/>
+      <HoverCounter/>
       {/* <ErrorBounding>
           <Hero heroName='Batman'/>
       </ErrorBounding>
